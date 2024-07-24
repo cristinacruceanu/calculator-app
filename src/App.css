@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+button,
+input {
+  margin: 5px;
+  border: 1px solid #d3dadf;
+  border-radius: 12px;
+  font-size: 18px;
+
+}
+
+input {
+  background-color: #ffffff;
+}
+
+p {
+  font-weight: bold;
+}
+
+.reset {
+  background-color: #03b8a0;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #d3dadf;
+ cursor:pointer;
+}
+.reset:hover {
+  background-color: #028b79;
+}
+input:focus {
+  outline: none;
+  border: 2px solid #e67519;
+}
+input:hover {
+  border: 2px solid #e67519;
+}
