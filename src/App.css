@@ -67,3 +67,7 @@ input:hover {
   height: auto;
   width: 100%;
 }
+
+.confetti-box {
+  padding-top: 400px;
+}

@@ -82,10 +82,10 @@ function App() {
               reset result
             </button>
           </form>
-          <div>
+          <div className="confetti-box">
             <br></br>
-            <p>Congratulations, you completed React Basics!</p>
-            <button onClick={onClickHandler}>Click me!</button>
+            <p>Does the calculator work? Press for confetti to celebrate!</p>
+            <button onClick={onClickHandler}>🎉</button>
           </div>
         </div>
       </div>
